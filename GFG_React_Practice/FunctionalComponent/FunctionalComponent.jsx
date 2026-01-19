@@ -11,9 +11,12 @@ import react from 'react'
 
 // }
 
+
+//Project Loading State
+
 //DESTRUCTURING DIRECTLY FOR CLEAN CODE 
 const Welcome=({name,children})=>{
-    console.log(children)
+    // console.log(children)
   return <div style={{backgroundColor:"red",border:'2px solid black'}}>
     {children}
     <p style={{backgroundColor:"yellow"}}>{name}</p>
